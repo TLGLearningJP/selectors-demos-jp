@@ -49,9 +49,3 @@ h2 {
 & {
     color-scheme: light dark;
 }
-
-p {
-    &:hover {
-        size: 1000px;
-    }
-}
