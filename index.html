@@ -7,14 +7,26 @@
   </head>
   <link rel="stylesheet" href="css/style.css" />
   <body>
-    <h1>Attribute Selectors</h1>
-    <a href="http://google.com">go to google</a>
-    <a href="http://nellysugu.com" title="nelly website">go to nelly website</a>
-    <h2>Class Selectors</h2>
-    <p class="purple_text">go to google</p>
-    <p class="extra">this text has a extra formatting</p>
+    <article>
+      <h1>Attribute Selectors</h1>
+      <a href="http://google.com">go to google</a>
+      <a href="http://nellysugu.com" title="nelly website"
+        >go to nelly website</a
+      >
+      <h2>Class Selectors</h2>
+      <p class="purple_text">go to google</p>
+      <p class="extra">this text has a extra formatting</p>
+    </article>
     <h3>Nesting Selector</h3>
-    <form><label for="parent" class="parent">Parent text<input type="text"></label>
-        <label for="child">Child text <input type="email"></label</form>
+    <section>
+      <p class="parent">Parent text number two</p>
+      <p class="child">child text number two</p>
+      <form>
+        <label for="parent" class="parent"
+          >Parent text<input type="text"
+        /></label>
+        <label for="child">Child text <input type="email" /></label>
+      </form>
+    </section>
   </body>
 </html>
