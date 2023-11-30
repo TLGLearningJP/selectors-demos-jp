@@ -1,0 +1,29 @@
+a[href] {
+    color:red;
+}
+
+a[title="nelly website"] {
+    color: green;
+}
+
+.purple_text {
+    color: purple;
+}
+
+.extra {
+    color: purple;
+    font-weight:900;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    & parent {
+        border: blue 5px dashed;
+    }
+}
+
+input {
+    border: red 5px dashed;
+}
